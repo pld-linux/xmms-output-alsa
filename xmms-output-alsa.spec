@@ -31,8 +31,8 @@ sterowniki ALSA (wersje 0.9 i nowsze).
 
 %build
 aclocal
-automake -a -c -f
-autoconf
+%{__automake}
+%{__autoconf}
 %configure
 %{__make}
 
