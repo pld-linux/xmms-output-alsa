@@ -9,9 +9,11 @@ Release:	1
 License:	GPL
 Group:		Development/Libraries
 Source0:	http://freesoftware.fsf.org/download/%{_realname}/%{_realname}-%{version}.tar.gz
-Requires:	xmms
 BuildRequires:	alsa-lib-devel >= 0.9
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	xmms-devel
+Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -21,7 +23,7 @@ This plugin allows xmms to play sounds though final ALSA drivers
 (versions 0.9 and above).
 
 %description -l pl
-Ta wtyczka pozwala xmms'owi odtwarzaæ muzykê poprzez finalne
+Ta wtyczka pozwala xmms-owi odtwarzaæ muzykê poprzez finalne
 sterowniki ALSA (wersje 0.9 i nowsze).
 
 %prep
@@ -39,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip README NEWS AUTHORS ChangeLog
+gzip -9nf README NEWS AUTHORS ChangeLog
 
 %clean
 rm -rf $RPM_BUILD_ROOT
