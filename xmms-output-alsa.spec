@@ -5,7 +5,7 @@ Summary:	ALSA 0.9.x output plugin for XMMS
 Summary(pl):	Wtyczka dla XMMS odtwarzaj±ca przez ALSA 0.9.x
 Name:		xmms-output-alsa
 Version:	0.9.12
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://savannah.nongnu.org/download/%{_realname}/%{_realname}-%{version}.tar.gz
@@ -18,6 +18,7 @@ BuildRequires:	libtool
 BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel
 Requires:	xmms
+Obsoletes:	xmms-output-ALSA
 Provides:	xmms-output-plugin
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
