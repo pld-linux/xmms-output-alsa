@@ -1,3 +1,6 @@
+
+%define		_realname	alsa-xmms
+
 Summary:	ALSA 0.9.x output plugin for XMMS
 Summary(pl):	Wtyczka dla XMMS odtwarzaj±ca przez ALSA 0.9.x
 Name:		xmms-output-alsa
@@ -5,7 +8,7 @@ Version:	0.9
 Release:	1
 License:	GPL
 Group:		Development/Libraries
-Source0:	alsa-xmms-%{version}.tar.gz
+Source0:	http://freesoftware.fsf.org/download/%{_realname}/%{_realname}-%{version}.tar.gz
 Requires:	xmms
 BuildRequires:	alsa-lib-devel >= 0.9
 BuildRequires:	xmms-devel
@@ -22,7 +25,7 @@ Ta wtyczka pozwala xmms'owi odtwarzaæ muzykê poprzez finalne
 sterowniki ALSA (wersje 0.9 i nowsze).
 
 %prep
-%setup -q -n alsa-xmms-%{version}
+%setup -q -n %{_realname}-%{version}
 
 %build
 aclocal
