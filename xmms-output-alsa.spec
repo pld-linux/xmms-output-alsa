@@ -18,8 +18,9 @@ BuildRequires:	libtool
 BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel
 Requires:	xmms
-Obsoletes:	xmms-output-ALSA
 Provides:	xmms-output-plugin
+Obsoletes:	xmms-output-ALSA
+Obsoletes:	xmms-output-aalsa
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
