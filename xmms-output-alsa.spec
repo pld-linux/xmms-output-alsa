@@ -14,6 +14,7 @@ URL:		http://savannah.nongnu.org/download/alsa-xmms/
 BuildRequires:	alsa-lib-devel >= 0.9
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	libtool
 BuildRequires:	xmms-devel
 Requires:	xmms
 Provides:	xmms-output-plugin
