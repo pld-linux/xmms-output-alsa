@@ -2,7 +2,7 @@
 %define		_realname	alsa-xmms
 
 Summary:	ALSA 0.9.x output plugin for XMMS
-Summary(pl):	Wtyczka wyj¶ciowa dla XMMS-a odtwarzaj±ca przez ALSA 0.9.x
+Summary(pl):	Wtyczka wyj¶ciowa dla XMMS-a odtwarzaj±ca przez sterowniki ALSA 0.9.x
 Name:		xmms-output-alsa
 Version:	0.9.12
 Release:	3
@@ -54,4 +54,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README NEWS AUTHORS ChangeLog
-%attr(755,root,root) %{xmms_output_plugindir}/*
+%attr(755,root,root) %{xmms_output_plugindir}/*.so
