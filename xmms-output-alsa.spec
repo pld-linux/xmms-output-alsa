@@ -9,6 +9,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://savannah.nongnu.org/download/%{_realname}/%{_realname}-%{version}.tar.gz
+# Source0-md5: 690a13d0715cc2226a6e04fc0087f7ce
 Patch0:		%{name}-avoid-version.patch
 URL:		http://savannah.nongnu.org/download/alsa-xmms/
 BuildRequires:	alsa-lib-devel >= 0.9
