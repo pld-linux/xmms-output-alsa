@@ -7,7 +7,7 @@ Name:		xmms-output-alsa
 Version:	0.9
 Release:	1
 License:	GPL
-Group:		Development/Libraries
+Group:		X11/Applications/Multimedia
 Source0:	http://freesoftware.fsf.org/download/%{_realname}/%{_realname}-%{version}.tar.gz
 BuildRequires:	alsa-lib-devel >= 0.9
 BuildRequires:	autoconf
