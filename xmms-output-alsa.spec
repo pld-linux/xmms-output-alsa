@@ -4,11 +4,11 @@
 Summary:	ALSA 0.9.x output plugin for XMMS
 Summary(pl):	Wtyczka dla XMMS odtwarzaj±ca przez ALSA 0.9.x
 Name:		xmms-output-alsa
-Version:	0.9
+Version:	0.9.5
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://freesoftware.fsf.org/download/%{_realname}/%{_realname}-%{version}.tar.gz
+Source0:	http://savannah.nongnu.org/download/%{_realname}/%{_realname}-%{version}.tar.gz
 BuildRequires:	alsa-lib-devel >= 0.9
 BuildRequires:	autoconf
 BuildRequires:	automake
