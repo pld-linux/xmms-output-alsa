@@ -34,7 +34,7 @@ sterowników ALSA (wersje 0.9 i nowsze).
 %patch0 -p1
 
 %build
-aclocal
+%{__aclocal}
 %{__automake}
 %{__autoconf}
 %configure
