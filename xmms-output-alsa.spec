@@ -19,7 +19,6 @@ Requires:	xmms
 Provides:	xmms-output-plugin
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 %define		plugin_dir	%(xmms-config --output-plugin-dir)
 
 %description
