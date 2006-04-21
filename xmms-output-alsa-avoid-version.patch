@@ -1,9 +1,0 @@
-diff -Nur alsa-xmms-0.9.5.orig/src/Makefile.am alsa-xmms-0.9.5/src/Makefile.am
---- alsa-xmms-0.9.5.orig/src/Makefile.am	Sun Aug 11 00:42:01 2002
-+++ alsa-xmms-0.9.5/src/Makefile.am	Thu Sep 19 10:52:57 2002
-@@ -5,4 +5,5 @@
- 
- LDADD = -lasound
- LIBS = @LIBS@ @XMMS_LIBS@ @ALSA_LIBS@
-+LDFLAGS = -avoid-version
- CFLAGS = -g @XMMS_CFLAGS@ @PLUGINDRAIN@ @CFLAGS@
