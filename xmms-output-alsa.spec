@@ -2,7 +2,7 @@
 %define		_realname	alsa-xmms
 
 Summary:	ALSA 0.9.x output plugin for XMMS
-Summary(pl):	Wtyczka wyj¶ciowa dla XMMS-a odtwarzaj±ca przez sterowniki ALSA 0.9.x
+Summary(pl.UTF-8):   Wtyczka wyjÅ›ciowa dla XMMS-a odtwarzajÄ…ca przez sterowniki ALSA 0.9.x
 Name:		xmms-output-alsa
 Version:	0.9.12
 Release:	3
@@ -27,9 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This plugin allows XMMS to play sounds though final ALSA drivers
 (versions 0.9 and above).
 
-%description -l pl
-Ta wtyczka pozwala XMMS-owi odtwarzaæ muzykê za pomoc±
-sterowników ALSA (wersje 0.9 i nowsze).
+%description -l pl.UTF-8
+Ta wtyczka pozwala XMMS-owi odtwarzaÄ‡ muzykÄ™ za pomocÄ…
+sterownikÃ³w ALSA (wersje 0.9 i nowsze).
 
 %prep
 %setup -q -n %{_realname}-%{version}
