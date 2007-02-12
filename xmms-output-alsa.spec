@@ -2,7 +2,7 @@
 %define		_realname	alsa-xmms
 
 Summary:	ALSA 0.9.x output plugin for XMMS
-Summary(pl.UTF-8):   Wtyczka wyjściowa dla XMMS-a odtwarzająca przez sterowniki ALSA 0.9.x
+Summary(pl.UTF-8):	Wtyczka wyjściowa dla XMMS-a odtwarzająca przez sterowniki ALSA 0.9.x
 Name:		xmms-output-alsa
 Version:	0.9.12
 Release:	3
